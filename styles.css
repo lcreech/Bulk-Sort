@@ -1,0 +1,92 @@
+/* General Reset */
+body, h1, h2, p, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #f0f0f0;
+  background-color: #121212;
+  line-height: 1.6;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #1db954; /* Spotify green */
+}
+
+header p {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #333;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #14833b;
+}
+
+button:disabled {
+  background-color: #333;
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  padding: 10px;
+  background-color: #1f1f1f;
+  border-top: 1px solid #333;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #bbb;
+}
