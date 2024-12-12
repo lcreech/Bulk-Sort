@@ -1,6 +1,6 @@
 // Replace with your Spotify API credentials
-const clientId = "YOUR_CLIENT_ID"; 
-const redirectUri = "https://YOUR_NETLIFY_URL_HERE/"; // Update for Netlify deployment
+const clientId = "e93b71750ffb4423b2e14bec453f5b1b"; 
+const redirectUri = "https://bulksort.netlify.app/"; // Update for Netlify deployment
 let accessToken = "";
 
 // Spotify Authorization URL
